@@ -1,6 +1,3 @@
-<!doctype html>
-<html lang="en">
-
 <?php
 <!DOCTYPE html>
 <html lang="en">

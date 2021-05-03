@@ -13,6 +13,8 @@ include("./includes/navbar.php");
 </body>
 
 <footer>
-	include("./includes/footer.php")
+<?php
+include("./includes/footer.php")
+?>
 </footer>
 </html>

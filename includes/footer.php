@@ -37,16 +37,16 @@
 		<h5 class="text-white">We Accept</h5>
 		<ul class="list-unstyled mb-0">
 			<li>
-			<a class="visa"><img src="image/Visa.png" alt="Visa" width="6" height="5"></a>
+			<a class="visa"><img src="image/Visa.png" alt="Visa" width="60" height="50"></a>
 			</li>
 			<li>
-			<a class="master"><img src="image/mastercard.png" alt="mastercard" width="6" height="2"></a>
+			<a class="master"><img src="image/mastercard.png" alt="mastercard" width="60" height="20"></a>
 			</li>
 			<li>
-			<a class="paypal"><img src="image/paypal.png" alt="paypal" width="6" height="2"></a>
+			<a class="paypal"><img src="image/paypal.png" alt="paypal" width="60" height="20"></a>
 			</li>
 			<li>
-			<a class="american_express"><img src="image/American_Express.png" alt="American_Express" width="6" height="4"></a>
+			<a class="american_express"><img src="image/American_Express.png" alt="American_Express" width="60" height="40"></a>
 			</li>
 		</ul>
 		</div>

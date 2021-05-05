@@ -10,7 +10,7 @@ include("./includes/header.php");
 include("./includes/navbar.php");
 ?>
 
-<div class="jumbotron text-center">
+<div class="jumbotron">
 	<h1><small>Product </small>Listing</h1>
 </div>
 

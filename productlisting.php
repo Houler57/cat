@@ -12,7 +12,7 @@ include("../includes/header.php");
 <body>
 
 <div class="jumbotron text-center">
-	
+	<h1><small>Product </small>Listing</h1>
 </div>
 
 <div class="container-fluid">

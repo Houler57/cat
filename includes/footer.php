@@ -36,7 +36,7 @@
 
 		<!--Grid column-->
 		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-		<h5 class="text-uppercase mb-0">We Accept</h5>
+		<h5 class="text-white">We Accept</h5>
 
 		<ul class="list-unstyled">
 			<li>
@@ -60,7 +60,7 @@
 	<!-- Grid container -->
 
 	<!-- Copyright -->
-	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+	<div class="text-white" style="background-color: rgba(0, 0, 0, 0.2);">
 	© 2020 Copyright:
 	<a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
 	</div>

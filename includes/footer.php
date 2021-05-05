@@ -23,7 +23,7 @@
 			<a href="productlisting.php" class="text-white">Product</a>
 			</li>
 			<li>
-			<a href="contactus.php" class="text-white">Contact Us</a>
+			<a href="#!" class="text-white">Contact Us</a>
 			</li>
 			<li>
 			<a href="#!" class="text-white">Gallery</a>
@@ -35,27 +35,29 @@
 		<!--Grid column-->
 		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 		<h5 class="text-white">We Accept</h5>
-
-		<ul class="list-unstyled">
-			<img src="Visa.png" alt="Visa" width="6" height="5">
-			<br>
-			<img src="mastercard.png" alt="mastercard" width="6" height="2">
-			<br>
-			<img src="paypal.png" alt="paypal" width="6" height="2">
-			<br>
-			<img src="American_Express.png" alt="American_Express" width="6" height="4">
+		<ul class="list-unstyled mb-0">
+			<li>
+			<a class="visa"><img src="image/Visa.png" alt="Visa" width="60" height="50"></a>
+			</li>
+			<li>
+			<a class="master"><img src="image/mastercard.png" alt="mastercard" width="60" height="20"></a>
+			</li>
+			<li>
+			<a class="paypal"><img src="image/paypal.png" alt="paypal" width="60" height="20"></a>
+			</li>
+			<li>
+			<a class="american_express"><img src="image/American_Express.png" alt="American_Express" width="60" height="40"></a>
+			</li>
 		</ul>
 		</div>
+
 		<!--Grid column-->
 	</div>
 	<!--Grid row-->
+		
 	</div>
 	<!-- Grid container -->
 
-	<!-- Copyright -->
-	<div class="text-white" style="background-color: rgba(0, 0, 0, 0.2);">
-	© 2020 Copyright:
-	<a class="text-white-center" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-	</div>
+
 </div>
 <!-- Copyright -->

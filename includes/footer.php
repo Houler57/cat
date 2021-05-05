@@ -23,7 +23,7 @@
 			<a href="productlisting.php" class="text-white">Product</a>
 			</li>
 			<li>
-			<a href="contactus.php" class="text-white">Contact Us</a>
+			<a href="#!" class="text-white">Contact Us</a>
 			</li>
 			<li>
 			<a href="#!" class="text-white">Gallery</a>

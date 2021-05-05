@@ -36,22 +36,6 @@
 		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 		<h5 class="text-white">We Accept</h5>
 		<ul class="list-unstyled mb-0">
-			<li>
-			<a class="visa"><img src="image/Visa.png" alt="Visa" width="30" height="10"></a>
-			</li>
-			<br>
-			<li>
-			<a class="master"><img src="image/mastercard.png" alt="mastercard" width="30" height="25"></a>
-			</li>
-			<br>
-			<li>
-			<a class="paypal"><img src="image/paypal.png" alt="paypal" width="30" height="10"></a>
-			</li>
-			<br>
-			<li>
-			<a class="american_express"><img src="image/American_Express.png" alt="American_Express" width="30" height="20"></a>
-			</li>
-		</ul>
 		</div>
 
 		<!--Grid column-->

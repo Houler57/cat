@@ -6,6 +6,9 @@ include("./includes/header.php");
 ?>
 </head>
 <body>
+<?php
+include("./incudes/navbar.php");
+?>
 
 <div class="jumbotron text-center">
 	<h1><small>Product </small>Listing</h1>

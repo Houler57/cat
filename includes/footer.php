@@ -17,20 +17,20 @@
 
 		<!--Grid column-->
 		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-		<h5 class="text-uppercase">Links</h5>
+		<h5 class="text-uppercase">Get Around</h5>
 
 		<ul class="list-unstyled mb-0">
 			<li>
-			<a href="#!" class="text-dark">Link 1</a>
+			<a href="aboutus.php" class="text-dark">About Us</a>
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 2</a>
+			<a href="productlisting.php" class="text-dark">Product</a>
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 3</a>
+			<a href="contactus.php" class="text-dark">Contact Us</a>
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 4</a>
+			<a href="#!" class="text-dark">Gallery</a>
 			</li>
 		</ul>
 		</div>

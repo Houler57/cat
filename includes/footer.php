@@ -44,7 +44,7 @@
 			<br>
 			<img src="American_Express.png" alt="American_Express" width="6" height="4">
 		<!--Grid column-->
-
+		</div>
 	</div>
 	<!--Grid row-->
 		

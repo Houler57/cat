@@ -19,7 +19,7 @@ include("./includes/navbar.php");
 <div class="container">
 	<div class="row">
 		<div class="prod_dec_tier1">
-			<img src="./image/tier 1.jpg" alt="" class="tier1">
+			<img src="./image/tier 1.jpg" alt="" class="tier1" width="1050" height="750">
 				<h3>Tier 1</h3>
 				<p class="text-muted">In this Tier 1, you will get 1 of our ShineSmile toothbrush with an additional 1 ShineSmile toothpaste.</p>
 				<h5>Price :</h5>

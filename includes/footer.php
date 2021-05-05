@@ -36,13 +36,13 @@
 		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 		<h5 class="text-white">We Accept</h5>
 		</div>
-			<a><img src="Visa.png" alt="Visa" width="6" height="5"></a>
+			<img src="Visa.png" alt="Visa" width="6" height="5">
 			<br>
-			<a><img src="mastercard.png" alt="mastercard" width="6" height="2"></a>
+			<img src="mastercard.png" alt="mastercard" width="6" height="2">
 			<br>
-			<a><img src="paypal.png" alt="paypal" width="6" height="2"></a>
+			<img src="paypal.png" alt="paypal" width="6" height="2">
 			<br>
-			<a><img src="American_Express.png" alt="American_Express" width="6" height="4"></a>
+			<img src="American_Express.png" alt="American_Express" width="6" height="4">
 		<!--Grid column-->
 
 	</div>

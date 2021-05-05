@@ -40,16 +40,16 @@
 
 		<ul class="list-unstyled">
 			<li>
-			<img src="image/Visa.png" alt="Visa" width="500" height="600">
+
 			</li>
 			<li>
-			<img src="image/Visa.png" alt="Visa" width="500" height="600">
+
 			</li>
 			<li>
-			<img src="image/paypal.png" alt="paypal" width="500" height="600">
+
 			</li>
 			<li>
-			<img src="image/American_Express.png" alt="American Express" width="500" height="600">
+
 			</li>
 		</ul>
 		</div>

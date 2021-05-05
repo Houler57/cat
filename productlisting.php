@@ -19,19 +19,19 @@ include("./includes/header.php");
 	<div class="row row-no-gutters">
 		<div class="clearfix visible-xs-block">
 			<div class="col-md-6">
-			<img src="" alt="" class="img-thumbnail">
+			<img src="./image/tier1.png" alt="" class="img-thumbnail">
 				<h3>Tier 1</h3>
 				<p class="text-muted">Our flagship and most suitable tiered bundle</p>
 				<button type="button" class="btn btn-default">Choose Bundle 1</button>
 			</div>
 			<div class="col-md-6">
-			<img src="" alt="" class="img-thumbnail">
+			<img src="./image/tier2.png" alt="" class="img-thumbnail">
 				<h3>Tier 2</h3>
 				<p class="text-muted">Tier 2 is most suitable for a small family</p>
 				<button type="button" class="btn btn-default">Choose Bundle 2</button>
 			</div>
 			<div class="col-md-6">
-			<img src="" alt="" class="img-thumbnail">
+			<img src="./image/tier3.png" alt="" class="img-thumbnail">
 				<h3>Tier 3</h3>
 				<p class="text-muted">This tier is the most cost-effective choice for large families</p>
 				<button type="button" class="btn btn-default">Choose Bundle 3</button>

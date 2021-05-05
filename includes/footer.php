@@ -8,7 +8,7 @@
 		<h5 class="text-uppercase">The Kickbackers</h5>
 
 		<p>
-			The Kickbackers was founded in 2020
+			The Kickbackers was founded in 2021
 		</p>
 		</div>
 		<!--Grid column-->

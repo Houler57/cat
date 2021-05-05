@@ -5,13 +5,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Product Description</title>
+
+</head>
+<body>
 <?php
 include("./includes/header.php");
 include("./includes/navbar.php");
 ?>
-</head>
-<body>
-
+	<main>
 <div class="jumbotron text-center">
 	<h1><small>Product </small>Description</h1>
 </div>
@@ -28,7 +29,7 @@ include("./includes/navbar.php");
 			</div>
 	</div>
 </div>
-	
+	</main>
 </body>
 
 <footer>

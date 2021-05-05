@@ -19,7 +19,7 @@ include("./includes/navbar.php");
 <div class="container">
 	<div class="row">
 		<div class="prod_dec_tier2">
-			<img src="./image/tier 2.jpg" alt="" class="tier2">
+			<img src="./image/tier 2.jpg" alt="" class="tier2" width="1050" height="750">
 				<h3>Tier 2</h3>
 				<p class="text-muted">In this Tier 2, you will get 2 of our ShineSmile toothbrush, 1 medium size ShineSmile toothpaste, and 1 ShineSmile mouthwash.</p>
 				<h5>Price :</h5>

@@ -36,20 +36,20 @@
 
 		<!--Grid column-->
 		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-		<h5 class="text-uppercase mb-0">Links</h5>
+		<h5 class="text-uppercase mb-0">We Accept</h5>
 
 		<ul class="list-unstyled">
 			<li>
-			<a href="#!" class="text-dark">Link 1</a>
+			<img src="image/Visa.png" alt="Visa" width="500" height="600">
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 2</a>
+			<img src="image/Visa.png" alt="Visa" width="500" height="600">
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 3</a>
+			<img src="image/paypal.png" alt="paypal" width="500" height="600">
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 4</a>
+			<img src="image/American_Express.png" alt="American Express" width="500" height="600">
 			</li>
 		</ul>
 		</div>

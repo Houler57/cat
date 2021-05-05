@@ -19,16 +19,16 @@
 
 		<ul class="list-unstyled mb-0">
 			<li>
-			<a href="aboutus.php" class="text-dark">About Us</a>
+			<a href="aboutus.php" class="text">About Us</a>
 			</li>
 			<li>
-			<a href="productlisting.php" class="text-dark">Product</a>
+			<a href="productlisting.php" class="text">Product</a>
 			</li>
 			<li>
-			<a href="contactus.php" class="text-dark">Contact Us</a>
+			<a href="contactus.php" class="text">Contact Us</a>
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Gallery</a>
+			<a href="#!" class="text">Gallery</a>
 			</li>
 		</ul>
 		</div>

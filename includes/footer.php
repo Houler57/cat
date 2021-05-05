@@ -5,53 +5,26 @@
 	<div class="row">
 		<!--Grid column-->
 		<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-		<h5 class="text-uppercase">Footer Content</h5>
+		<h5 class="text-uppercase">Contents</h5>
 
-		<p>
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-			molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-			voluptatem veniam, est atque cumque eum delectus sint!
-		</p>
+		<p>Sitemap Contents</p>
 		</div>
-		<!--Grid column-->
-
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-		<h5 class="text-uppercase">Get Around</h5>
-
-		<ul class="list-unstyled mb-0">
-			<li>
-			<a href="aboutus.php" class="text-dark">About Us</a>
-			</li>
-			<li>
-			<a href="productlisting.php" class="text-dark">Product</a>
-			</li>
-			<li>
-			<a href="contactus.php" class="text-dark">Contact Us</a>
-			</li>
-			<li>
-			<a href="#!" class="text-dark">Gallery</a>
-			</li>
-		</ul>
-		</div>
-		<!--Grid column-->
-
 		<!--Grid column-->
 		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
 		<h5 class="text-uppercase mb-0">Links</h5>
 
 		<ul class="list-unstyled">
 			<li>
-			<a href="#!" class="text-dark">Link 1</a>
+			<a href="index.php" class="text-dark">Home</a>
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 2</a>
+			<a href="aboutus.php" class="text-dark">About Us</a>
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 3</a>
+			<a href="contactus.php" class="text-dark">Contact Us</a>
 			</li>
 			<li>
-			<a href="#!" class="text-dark">Link 4</a>
+			<a href="productlisting.php" class="text-dark">Products</a>
 			</li>
 		</ul>
 		</div>

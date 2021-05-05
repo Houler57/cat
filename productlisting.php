@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 <?php
-include("../includes/header.php");
+include("./includes/header.php");
 ?>
 </head>
 <body>
@@ -44,7 +44,7 @@ include("../includes/header.php");
 
 <footer>
 <?php
-include("../includes/footer.php");
+include("./includes/footer.php");
 ?>
 </footer>
 </html>

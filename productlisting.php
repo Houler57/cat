@@ -7,7 +7,7 @@ include("./includes/header.php");
 </head>
 <body>
 <?php
-include("./incudes/navbar.php");
+include("./includes/navbar.php");
 ?>
 
 <div class="jumbotron text-center">

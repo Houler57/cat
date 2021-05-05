@@ -14,7 +14,7 @@ include("./includes/navbar.php");
 	<h1><small>Product </small>Listing</h1>
 </div>
 
-<div class="container pt-3 my-3 border">
+<div class="container pt-3 my-3">
 	<div class="row">
 		<div class="col-sm">
 			<div class="card text-center" style="width: 16rem;">

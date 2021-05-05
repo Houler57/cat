@@ -21,8 +21,8 @@ include("./includes/navbar.php");
           </div>
           <table>
             <tr>
-              <th><img src="image/Docter 1.jfif"></th>
-              <th><img src="image/Doctor 2.jfif"></th>
+              <th><img src="image/Toothbrush with logo with ingraving.png"></th>
+              <th><img src="image/Toothbrush with logo.png"></th>
             </tr>
             <tr>
               <th>What We Do</th>

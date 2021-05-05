@@ -4,13 +4,13 @@
             <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="./productlisting.php">Products</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="./aboutus.php">Link</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="./contactus.php">Contact Us</a>
         </li>
     </ul>
 </nav>

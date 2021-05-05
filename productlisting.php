@@ -15,10 +15,9 @@ include("./includes/header.php");
 	<h1><small>Product </small>Listing</h1>
 </div>
 
-<div class="container-fluid">
-	<div class="row row-no-gutters">
-		<div class="clearfix visible-xs-block">
-			<div class="col-md-6">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
 			<img src="./image/tier1.png" alt="" class="img-thumbnail">
 				<h3>Tier 1</h3>
 				<p class="text-muted">Our flagship and most suitable tiered bundle</p>
@@ -35,9 +34,8 @@ include("./includes/header.php");
 				<h3>Tier 3</h3>
 				<p class="text-muted">This tier is the most cost-effective choice for large families</p>
 				<button type="button" class="btn btn-default">Choose Bundle 3</button>
-			</div>
 		</div>
-		</div>
+	</div>
 </div>
 	
 </body>

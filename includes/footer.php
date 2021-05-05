@@ -37,18 +37,13 @@
 		<h5 class="text-white">We Accept</h5>
 
 		<ul class="list-unstyled">
-			<li>
 			<img src="Visa.png" alt="Visa" width="6" height="5">
-			</li>
-			<li>
+			<br>
 			<img src="mastercard.png" alt="mastercard" width="6" height="2">
-			</li>
-			<li>
+			<br>
 			<img src="paypal.png" alt="paypal" width="6" height="2">
-			</li>
-			<li>
+			<br>
 			<img src="American_Express.png" alt="American_Express" width="6" height="4">
-			</li>
 		</ul>
 		</div>
 		<!--Grid column-->

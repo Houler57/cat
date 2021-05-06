@@ -12,9 +12,7 @@ include("./includes/header.php");
 include("./includes/navbar.php");
 ?>
     <main>
-        <div class="jumbotron">
-            <h1><small>Product </small>Listing</h1>
-        </div>
+    
 
         <div class="container pt-3 my-3">
             <div class="row">
@@ -46,6 +44,9 @@ include("./includes/navbar.php");
                 </div>
 
             </div>
+        </div>
+        <div class="m-5 p-5">
+
         </div>
     </main>
 </body>

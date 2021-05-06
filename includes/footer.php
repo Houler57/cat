@@ -33,9 +33,11 @@
 		<!--Grid column-->
 
 		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+		<div class="text-white col-lg-3 col-md-6 mb-4 mb-md-0">
 		<h5 class="text-white">We Accept</h5>
-		
+		<i id="payicon" class="fa fa-cc-visa" aria-hidden="true"></i>
+		<i id="payicon"class="fa fa-cc-mastercard" aria-hidden="true"></i>
+		<i id="payicon" class="fa fa-paypal" aria-hidden="true"></i>
 		</div>
 
 		<!--Grid column-->

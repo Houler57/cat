@@ -12,7 +12,7 @@ include("./includes/header.php");
     <?php
 include("./includes/navbar.php");
 ?>
-    <main>
+    <main style="margin-top: 0;">
         <section>
             <div id="message-container" class="bg-secondary pt-5 pb-5">
 
@@ -61,32 +61,24 @@ include("./includes/navbar.php");
             </div>
         </section>
 
-        <div id="home-description">
+        <section id="home-description">
 
-            <div style="width: 70%;" class="p-5">
+            <div style="width: 40%;" class="p-5">
                 <h1 class="mb-5">What Is Shine Smile dental care Subscription Box?</h1>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate soluta, magni voluptates ut quo
-                    officia eos eveniet aspernatur voluptas? Obcaecati nulla iusto architecto unde quo ipsa, provident
-                    asperiores qui soluta sit quod minima accusantium aspernatur ea! Ullam numquam optio tenetur ducimus
-                    culpa qui eligendi quidem commodi repudiandae eaque rem mollitia odit deserunt atque laboriosam
-                    facilis
-                    nostrum sunt, vero voluptatum laudantium illo maxime similique! Aspernatur, accusantium ad magni
-                    debitis
-                    sapiente possimus et aperiam rerum aliquid in neque quos illo accusamus sint excepturi harum omnis
-                    voluptates molestias eveniet quo architecto, perferendis deserunt? Ut aliquam laboriosam, earum,
-                    voluptate suscipit sed magnam rerum voluptatum facilis assumenda obcaecati facere soluta! Itaque ad
-                    illum error, laborum voluptas, explicabo vero sed cupiditate animi laboriosam amet officia qui
-                    architecto! Ducimus numquam eligendi repellat laboriosam maiores debitis corporis possimus autem,
-                    asperiores quos et fugit, provident culpa quaerat facilis unde? Commodi distinctio, ullam, maxime,
-                    qui
-                    reiciendis molestiae aspernatur quasi eius impedit inventore nam iure voluptas? Blanditiis maiores
-                    voluptatum vel facere perferendis dolor odio iste. Facilis repudiandae, omnis porro laboriosam
-                    libero
-                    nam ipsum soluta impedit quis ratione architecto perspiciatis, dignissimos vero animi.</p>
+                <p>With Shine Smile, you get the complete package for your overall dental care needs. You will have the
+                    choice of selecting toothbrushes, tooth pastes, dental floss much more products, to your preference
+
+                </p>
+
+                <p> With higher tiers comes personalization, discounts, freebies, priority in service due to a larger
+                    expectation of the package size and variety.
+                    In lower tiers, samples of higher tier are also offered to further the desirability of a premium.
+                    Pricing of bundled items has a degree in which larger bundles appear far much cheaper in the long
+                    run over smaller bundles.
+                    .</p>
 
             </div>
-        </div>
+        </section>
     </main>
 </body>
 

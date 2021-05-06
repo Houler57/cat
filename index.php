@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<?php
+    <?php
 include("./includes/header.php");
 ?>
-<title>Home Page</title>
+    <title>Home Page</title>
 </head>
 
 <body>
-<?php
+    <?php
 include("./includes/navbar.php");
 ?>
-<main>
+    <main>
+        <section>
+            <div class="bg-secondary pt-5 pb-5" style=" width: 50%; height: 50%;  ">
+                <div id="demo" class="carousel slide" data-ride="carousel">
 
-<section>
-<div  class="bg-secondary pt-5 pb-5 w-50">
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img  class="d-block w-50" src="image\Toothbrush with logo with ingraving.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img  class="d-block w-50" src="image\tier 1.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-50" src="image\tier 1.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-</section>
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="bg-danger active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
 
-<section>
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image\tier 1.jpg" alt="Los Angeles" width="1100" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image\tier 2.jpg" alt="Chicago" width="1100" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image\tier 1.jpg" alt="New York" width="1100" height="500">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class=" carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="bg-danger carousel-control-prev-icon"></span>
+                    </a>
+                    <a class=" carousel-control-next" href="#demo" data-slide="next">
+                        <span class="bg-danger carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section>
 
 
-</section>
-</main>
+        </section>
+    </main>
 </body>
 
 <footer>
-<?php
+    <?php
 include("./includes/footer.php")
 ?>
 </footer>
+
 </html>

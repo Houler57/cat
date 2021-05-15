@@ -10,7 +10,7 @@
 	include("./includes/navbar.php");
 	?>
 
-	<form class="form" action="cardpaymentpost.php" method="post"></form>
+	<form class="form-group" action="cardpaymentpost.php" method="post"></form>
 
 	<?php
 
@@ -22,18 +22,18 @@
 	?>
 	Email Address: <input class="form-control" type="email" name="email-address" id="email-address"><br>
 
-	Name (on card): <input class="form-control" type="text" name="credit-card-fullname" id="credit-card-fullname"><br>
-	Credit Card (Number): <input class="form-control" type="text" name="credit-card-number" id="credit-card-number"><br>
+	<label for="credit-card-fullname">Name (on card):</label> <input class="form-control" type="text" name="credit-card-fullname" id="credit-card-fullname"><br>
+	<label for="credit-card-number">Credit Card (Number):</label> <input class="form-control" type="text" name="credit-card-number" id="credit-card-number"><br>
 
-	Card Verification Value (CVV): <input class="form-control" type="text" name="credit-card-cvv" id="credit-card-cvv"><br>
-	Date of Expiration: <input class="form-control" type="date" name="credit-card-date" id="credit-card-date"><br>
+	<label for="credit-card-cvv">Card Verification Value (CVV):</label> <input class="form-control" type="text" name="credit-card-cvv" id="credit-card-cvv"><br>
+	<label for="credit-card-date">Date of Expiration:</label> <input class="form-control" type="date" name="credit-card-date" id="credit-card-date"><br>
 
-	Address: <input class="form-control" type="text" name="post-delivery-address" id="post-delivery-address">
-	Suburb: <input class="form-control" type="text" name="suburb-of-occupation" id="suburb-of-occupation">
+	<label for="post-delivery-address">Address:</label> <input class="form-control" type="text" name="post-delivery-address" id="post-delivery-address">
+	<label for="suburb-of-occupation">Suburb:</label> <input class="form-control" type="text" name="suburb-of-occupation" id="suburb-of-occupation">
 
-	State: <input class="form-control" type="text" name="state-of-origin" id="state-of-origin">
-	Postcode: <input class="form-control" type="text" name="country-regional-postcode" id="region-postcode">
-	Country: <input class="form-control" type="text" name="country-of-occupation" id="country-of-occupation">
+	<label for="state-of-origin">State:</label> <input class="form-control" type="text" name="state-of-origin" id="state-of-origin">
+	<label for="region-postcode">Postcode:</label> <input class="form-control" type="text" name="region-postcode" id="region-postcode">
+	<label for="country-of-occupation">Country:</label> <input class="form-control" type="text" name="country-of-occupation" id="country-of-occupation">
 
 	<button class="btn btn-primary" type="submit">Submit</button>
 </body>

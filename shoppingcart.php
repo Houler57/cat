@@ -10,7 +10,7 @@
 	include("./includes/navbar.php");
 	?>
 
-	<script src="../js/exts/simpleCart.js">
+	<script src="../js/exts/simplecart-js-2.2.3/simpleCart.js">
 		simpleCart({
 			checkout: {
 				type: "PayPal",

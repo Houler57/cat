@@ -10,7 +10,8 @@
 	include("./includes/navbar.php");
 	?>
 
-	<script src="../js/exts/simplecart-js-2.2.3/simpleCart.js">
+	<script src="../js/exts/simplecart-js-2.2.3/simpleCart.js"></script>
+	<script>
 		simpleCart({
 			checkout: {
 				type: "PayPal",
@@ -23,12 +24,12 @@
 
 	<div class="simpleCart_shelfItem">
 		<h1 class="item_name">Shinesmile Bundle Tier</h1>
-		<select name="item_name" id="">
+		<select name="item_name" id="item_name">
 			<option value="Tier 1">Tier 1</option>
 			<option value="Tier 2">Tier 2</option>
 			<option value="Tier 3">Tier 3</option>
 		</select>
-		<input type="text" value="1" class="item_Quantity">
+		<input type="text" value="1" class="item_quantity">
 		<span class="item_price">$19.99</span>
 		<a class="item_add" href="javascript:;">Purchase</a>
 	</div>

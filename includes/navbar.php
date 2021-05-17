@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-	<img src="./image/Shinesmile logo.png" alt="Shinesmile Logo">
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark pt-5 pb-3">
+<span style="margin-right :10rem;"><img style="max-width: 70px;" src="./image/Shinesmile logo.png" alt="Shinesmile Logo"></span>
     <ul class="navbar-nav">
+   
         <li class="nav-item active">
             <a class="nav-link" href="index.php">Home</a>
         </li>

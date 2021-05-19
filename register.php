@@ -1,3 +1,4 @@
+<?php include("./includes/functions.inc.php");?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +8,7 @@ include("./includes/header.php");
 ?>
     <title>Register</title>
 </head>
-<?php include("./includes/functions.inc.php");?>
+ 
 
 
 <?php
@@ -26,36 +27,36 @@ include("./includes/header.php");
                         <label>First name</label>
                         <input type="text" class="form-control" name="firstname" id="firstname"
                             aria-describedby="helpId" <?php displayValue($_POST, 'firstname'); ?> placeholder="">
-                        <span id="helpId" class="form-text"><?php echo displayError('firstname');?></span>
+                        <span id="helpId" class="form-text error"><?php echo displayError('firstname');?></span>
                     </div>
                     <div class="form-group">
                         <label>Last name</label>
                         <input type="text" class="form-control" name="lastname" id="lastname" aria-describedby="helpId"
                             <?php displayValue($_POST, 'lastname'); ?> placeholder="">
-                        <span id="helpId" class="form-text"><?php echo displayError('lastname');?></span>
+                        <span id="helpId" class="form-text error"><?php echo displayError('lastname');?></span>
                     </div>
                     <div class="form-group">
                         <label>Email</label>
                         <input type="text" class="form-control" name="email" id="email" aria-describedby="helpId"
                             <?php displayValue($_POST, 'email'); ?> placeholder="">
-                        <span id="helpId" class="form-text"><?php echo displayError('email');?></span>
+                        <span id="helpId" class="form-text error"><?php echo displayError('email');?></span>
                     </div>
                     <div class="form-group">
                         <label>Phone Number</label>
                         <input type="text" class="form-control" name="phone" id="phone" aria-describedby="helpId"
                             <?php displayValue($_POST, 'phone'); ?> placeholder="">
-                        <span id="helpId" class="form-text"><?php echo displayError('phone');?></span>
+                        <span id="helpId" class="form-text error"><?php echo displayError('phone');?></span>
                     </div>
                     <div class="form-group">
                         <label>Password</label>
                         <input type="password" class="form-control" name="password" id="password" placeholder="">
-                        <span id="helpId" class="form-text"><?php echo displayError('password');?></span>
+                        <span id="helpId" class="form-text error"><?php echo displayError('password');?></span>
                     </div>
                     <div class="form-group">
                         <label>Confirm Password</label>
                         <input type="password" class="form-control" name="confirmPassword" id="confirmPassword"
                             placeholder="">
-                        <span id="helpId" class="form-text"><?php echo displayError('confirmPassword');?></span>
+                        <span id="helpId" class="form-text error"><?php echo displayError('confirmPassword');?></span>
                     </div>
                     <button type="submit" name="register" value="register" class="btn btn-primary mt-3">Submit</button>
                 </form>

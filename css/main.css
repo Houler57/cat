@@ -34,3 +34,9 @@ justify-content: space-between;
     justify-content: center;
     align-items: center;
 }
+form .error {
+    color: #ff0000;
+  }
+  form #helpID {
+    color: #ff0000;
+  }

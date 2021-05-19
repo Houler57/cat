@@ -14,6 +14,7 @@ if(isset($_POST['login'])) {
 <html lang="en">
 
 <head>
+
     <?php include("./includes/header.php");?>
     <title>Log In</title>
 </head>
@@ -26,13 +27,13 @@ if(isset($_POST['login'])) {
                 <label for="">Email</label>
                 <input type="text" class="form-control" name="username" aria-describedby="helpId"
                     <?php displayValue($_POST, 'username'); ?> placeholder="">
-                <span id="helpId" class="form-text"><?php echo displayError('username');?></span>
+                <span id="helpId" class="form-text error"><?php echo displayError('username');?></span>
             </div>
 
             <div class="form-group">
                 <label for="">Password</label>
                 <input type="password" class="form-control" name="loginpassword" placeholder="">
-                <span id="helpId" class="form-text"><?php echo displayError('loginpassword');?></span>
+                <span id="helpId" class="form-text error"><?php echo displayError('loginpassword');?></span>
             </div>
             <button type="submit" name="login" value="login" class="btn btn-primary">Login</button>
         </form>

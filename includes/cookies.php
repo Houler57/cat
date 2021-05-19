@@ -1,5 +1,7 @@
 <?php // NOTE(Daniel): Values may change based on fellow team member's conventions.
-$jsonShoppingCart = fopen("/data/json/shoppingcart.json", "r") or die();
+$rootDir = $_SERVER["HTTP_HOST"];
+$filepath = rtrim(dirname($_SERVER["PHP_SELF"]));
+$jsonShoppingCart = fopen("$rootDir/data/json/shoppingcart.json", "r") or die;
 $visitorCartJsonVals = json_decode($jsonShoppingCart); // Open then decode json vile to the directed file path.
 
 $currentJsonSessionValues = array($visitorCartJsonVals->visitingUser); // Get the associated key named: `visitingUser`, this is different to `$vistingUser`.

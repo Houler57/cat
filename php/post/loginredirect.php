@@ -1,6 +1,6 @@
 <?php
 $rootDir = $_SERVER["HTTP_HOST"];
-$filepath = rtrim(dirname($_SERVER["PHP_SELF"]));
+$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
 include("../jsonformats.php");
 include("../usersessiondao.php");
 include("$rootDir/includes/session.php");
@@ -8,9 +8,9 @@ include("$rootDir/includes/session.php");
 
 <?php
 
-function redirectLogin($filepath, $statusCode = 303) {
+function redirectLogin($currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"])), $statusCode = 303) {
 	$rootDir = $_SERVER["HTTP_HOST"];
-	$filepath = rtrim(dirname($_SERVER["PHP_SELF"]));
+	/* $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"])); */
 	$landingPage = 'index.php';
 	header("Location: http://$rootDir/$landingPage", true, $statusCode);
 	exit;
@@ -23,5 +23,5 @@ session_start();
 session_id();
 
 loginUser($postFormParams);
-redirectLogin($filepath, 303);
+redirectLogin($currentFilepath, 303);
 ?>

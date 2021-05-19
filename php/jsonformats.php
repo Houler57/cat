@@ -1,7 +1,7 @@
 <?php
 $rootDir = $_SERVER["HTTP_HOST"];
 $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
-$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 
 $userDaoFilepath = "$rootDir/data/users.json";
 $userDaoData = file_get_contents($userDaoFilepath);
@@ -14,7 +14,7 @@ function iterInto($k, $v) {
 	$result = json_encode($input);
 
 	$rootDir = $_SERVER["HTTP_HOST"];
-	$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+	$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 	
 	$userDaoFilepath = "$hostServerUrl/data/users.json";
 	$userDaoData = json_decode($userDaoFilepath);
@@ -26,16 +26,17 @@ function iterInto($k, $v) {
 
 function readUserData($userDaoFilepath) {
 	$rootDir = $_SERVER["HTTP_HOST"];
-	$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+	$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 
 	$userDaoFilepath = "$hostServerUrl/data/users.json";
 	$userDaoData = file_get_contents($userDaoFilepath);
+	
 	return json_decode($userDaoData);
 }
 
 function updateUserData($userDaoFilepath, $data) {
 	$rootDir = $_SERVER["HTTP_HOST"];
-	$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+	$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 
 	$userDaoFilepath = "$hostServerUrl/data/users.json";
 	$data = file_get_contents($userDaoFilepath);

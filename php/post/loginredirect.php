@@ -13,7 +13,7 @@ include("$hostServerUrl/includes/session.php");
 function redirectLogin($currentFilepath, $statusCode) {
 	$rootDir = $_SERVER["HTTP_HOST"];
 	$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
-	$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+	$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 	$statusCode = 303;
 	/* $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"])); */
 	$landingPage = 'index.php';

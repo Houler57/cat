@@ -4,7 +4,7 @@
 	<?php
 		$rootDir = $_SERVER["HTTP_HOST"];
 		$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
-		$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+		$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 	?>
 
 	<?php	
@@ -61,3 +61,8 @@
 	?>
 </footer>
 </html>
+
+<script <?php echo "src=\"$hostServerUrl/js/exts/card-v.2.5.2/dist/jquery.card.js\"" ?> ></script>
+<script>
+$('form').card({container: '.card-wrapper',}) // "Card - check out the demo". [online] Available at: https://github.com/jessepollak/card
+</script>

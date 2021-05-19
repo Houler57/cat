@@ -6,6 +6,11 @@
 		$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
 		$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
 	?>
+
+	<?php	
+		session_start();
+		session_id();
+	?>
 	
 	<?php
 		include("./includes/header.php");
@@ -18,14 +23,6 @@
 
 	<form class="form-group" <?php echo "action=\"$hostServerUrl/php/post/cardpaymentpost.php\"" ?> method="post"></form>
 
-	<?php
-
-
-	$emailAddress = $_POST["email-address"]; // may need a ```verifyEmailAddr``` function
-	if (!filter_var($emailAddress, FILTER_VALIDATE_EMAIL)) {
-		$errEmailAddr = "Email address has encountered an error!";
-	}
-	?>
 	<div class="col-md-6">
 		<label for="email-address">Email Address:</label> <input class="form-control" type="email" name="email-address" id="email-address" required><br>
 	</div>
@@ -46,9 +43,16 @@
 		<label for="region-postcode">Postcode:</label> <input class="form-control" type="text" name="region-postcode" id="region-postcode" required>
 		<label for="country-of-occupation">Country:</label> <input class="form-control" type="text" name="country-of-occupation" id="country-of-occupation" required>
 	</div>
-	
-	<button class="btn btn-primary" type="submit">Submit</button>
+	<br>
+
+	<input class="btn btn-primary" type="submit" name="submit-card-payment" value="Submit Payment">
 </body>
+
+<?php
+	if (isset($_POST["action"])) {
+		echo $_POST["submit"];
+	}
+?>
 
 <footer>
 	<?php

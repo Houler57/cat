@@ -12,19 +12,18 @@ function loginExisting($sessionSetval) {
 
 function verifyEmailAddr($postFormParams) {
 	$emailAddr = $_POST["email-address"];
-	$userPassword = $_POST["user-password"];
 
 	$restApiMethodPost = "POST";
 	$httpApiMethodRequest = "REQUEST_METHOD";
 
 	if (filter_var($postFormParams[$emailAddr], FILTER_VALIDATE_EMAIL) == false)
-		$errEmailFilter = "Filtered email has encountered an error.";
+		"Filtered email has encountered an error.";
 
 	elseif ($_SERVER[$httpApiMethodRequest] = $restApiMethodPost)
 		return $emailAddr;
 
 	else
-		$errData = "Error encountered besides determined Email Address error data.";
+		"Error encountered besides determined Email Address error data.";
 }
 
 function verifyUserPassword($postFormParams) {
@@ -34,13 +33,13 @@ function verifyUserPassword($postFormParams) {
 	$httpApiMethodRequest = "REQUEST_METHOD";
 
 	if (filter_var($postFormParams[$userPassword], FILTER_VALIDATE_REGEXP) == false)
-		$errUserPasswordFilter = "Filtered user password has encountered an error";
+		"Filtered user password has encountered an error";
 
 	elseif ($_SERVER[$httpApiMethodRequest] == $restApiMethodPost)
 		return $userPassword;
 
 	else
-		$errData = "Error encountered besides determined User Password error data.";
+		"Error encountered besides determined User Password error data.";
 }
 
 function loginUser($postFormParams) {

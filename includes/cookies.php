@@ -4,9 +4,12 @@ $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
 
 include("$rootDir/includes/session.php");
 
+$visitingUserSessionId = session_id();
+$sessionForSid = $_SESSION["session.use_trans_sid"];
+
 session_start();
-okSession();
-okTransSid();
+okSession($visitingUserSessionId);
+okTransSid($sessionForSid);
 
 $jsonShoppingCart = fopen("$rootDir/data/json/shoppingcart.json", "r") or die;
 $visitorCartJsonVals = json_decode($jsonShoppingCart); // Open then decode json vile to the directed file path.

@@ -8,7 +8,9 @@ include("$rootDir/includes/session.php");
 
 <?php
 
-function redirectLogin($currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"])), $statusCode = 303) {
+function redirectLogin($currentFilepath, $statusCode) {
+	$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
+	$statusCode = 303;
 	$rootDir = $_SERVER["HTTP_HOST"];
 	/* $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"])); */
 	$landingPage = 'index.php';

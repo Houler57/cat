@@ -31,7 +31,7 @@
 		</select>
 		<input type="text" value="1" class="item_quantity">
 		<span class="item_price">$19.99</span>
-		<a class="item_add" href="javascript:;">Purchase</a>
+		<a class="item_add" href="./cardpayment.php">Purchase</a>
 	</div>
 </body>
 <footer>

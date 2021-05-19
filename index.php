@@ -3,15 +3,15 @@
 
 <head>
     <?php
-include("./includes/header.php");
-?>
+		include("./includes/header.php");
+	?>
     <title>Home Page</title>
 </head>
 
 <body>
     <?php
-include("./includes/navbar.php");
-?>
+		include("./includes/navbar.php");
+	?>
     <main style="margin-top: 0;">
         <section>
             <div id="message-container" class="bg-secondary pt-5 pb-5">

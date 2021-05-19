@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark pt-5 pb-3">
     <span style="margin-right :10rem;"><img style="max-width: 70px;" src="./image/Shinesmile logo.png"
             alt="Shinesmile Logo"></span>
@@ -15,10 +14,6 @@
         </li>
         <li class="nav-item">
             <a class=" nav-link  text-white  " href="./contactus.php">Contact Us</a>
-        </li>
-
-        <li class="nav-item">
-            <a class=" nav-link  text-white  " href="./sitemap.php">Sitemap</a>
         </li>
 
         <?php
@@ -40,15 +35,19 @@
         </li>
         <?php } ?>
 
-    </ul>
+		<li class="nav-item">
+			<a class="nav-link" href="./sitemap.php">Sitemap</a>
+		</li>
+
+		<li class="nav-item text-right">
+			<a href="./shoppingcart.php">Cart</a>
+		</li>
     <?php
                  if(checkloggedin()){?>
 
     <span class=" nav-link  text-white    text-warning">Hello, <?php  echo $_SESSION[USER_INFO]["firstname"]?></span>
     </div>
     <?php  }
-                 ?>
-
-
+        ?>
     </ul>
 </nav>

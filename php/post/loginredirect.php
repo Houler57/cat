@@ -1,20 +1,23 @@
 <?php
 $rootDir = $_SERVER["HTTP_HOST"];
 $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
-include("../jsonformats.php");
-include("../usersessiondao.php");
-include("$rootDir/includes/session.php");
+$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+
+include("$hostServerUrl/php/jsonformats.php");
+include("$hostServerUrl/php/usersessiondao.php");
+include("$hostServerUrl/includes/session.php");
 ?>
 
 <?php
 
 function redirectLogin($currentFilepath, $statusCode) {
-	$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
-	$statusCode = 303;
 	$rootDir = $_SERVER["HTTP_HOST"];
+	$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
+	$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+	$statusCode = 303;
 	/* $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"])); */
 	$landingPage = 'index.php';
-	header("Location: http://$rootDir/$landingPage", true, $statusCode);
+	header("Location: $hostServerUrl/index.php", true, $statusCode);
 	exit;
 } // "How do I make a redirect in PHP?". [online] Available at: https://stackoverflow.com/a/768472
 

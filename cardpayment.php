@@ -2,7 +2,13 @@
 <html lang="en">
 <head>
 	<?php
-		include("./includes/header.php")
+		$rootDir = $_SERVER["HTTP_HOST"];
+		$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
+		$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+	?>
+	
+	<?php
+		include("./includes/header.php");
 	?>
 </head>
 <body>
@@ -10,7 +16,7 @@
 	include("./includes/navbar.php");
 	?>
 
-	<form class="form-group" action="cardpaymentpost.php" method="post"></form>
+	<form class="form-group" <?php echo "action=\"$hostServerUrl/php/post/cardpaymentpost.php\"" ?> method="post"></form>
 
 	<?php
 

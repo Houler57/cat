@@ -12,11 +12,9 @@
 </head>
 <body>
 	<?php include("./includes/navbar.php");  ?>
-</body>
-</html>
 <div class="bg-dark text-center text-lg-start">
 	<!-- Grid container -->
-	<div class="container p-4">
+	<div class="container-sm p-4">
 	<!--Grid row-->
 	<div class="row">
 		<!--Grid column-->
@@ -54,7 +52,7 @@
 
 		</ul>
 		</div>
-
+</body>
 	<!-- Copyright -->
 	<div class="row">
 		<div class="text-white" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -66,3 +64,4 @@
 	</div>
 </div>
 <!-- Copyright -->
+</html>

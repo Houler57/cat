@@ -26,7 +26,7 @@ include("./includes/navbar.php");
 				<p class="text-muted">In this Tier 2, you will get 2 of our ShineSmile toothbrush, 1 medium size ShineSmile toothpaste, and 1 ShineSmile mouthwash.</p>
 				<h5>Price :</h5>
 				<p class="text-muted">$35</p>
-				<a name="" id="" class="btn btn-primary" href="#" role="button">Add to Cart</a>
+				<a name="" id="" class="btn btn-primary" href="./cardpayment.php" role="button">Add to Cart</a>
 			</div>
 	</div>
 </div>

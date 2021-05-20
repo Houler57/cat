@@ -78,6 +78,19 @@
                     .</p>
 
             </div>
+	            <div style="width: 40%;" class="p-5">
+                <h1 class="mb-5">Why should you avoid plastic toothbrushes?</h1>
+                <p>The plastic that comprises your toothbrush has also been found to negatively impact individuals with acute chemical sensitivities. The plastic of the toothbrush would burn your mouth and cause your mouth to swell, due to the trace amounts of chemicals leaching from the toothbrush twice a day.</p>
+
+                <p> A recent study showed that most plastic products, including BPA (Bisphenol A) free products leach estrogenic chemicals when they are stressed.</p>
+			    
+	    <p>Many products are now labelled as BPA free (majority of plastic toothbrushes are) this has lured us into a false sense of security.  BPA free products often still contain phthalates which come from the family of plasticizers that keep your toothbrush bendy and as a side effect, leach estrogenic chemicals.</p>
+
+            </div>
+	<div style="width: 40%;" class="p-5">
+                <h1 class="mb-5">How often should you change your toothbrush?</h1>
+                <p>Dental professionals recommend changing your toothbrush about every three months, or as soon as the bristles are frayed. This is because toothbrush bristles get frayed and worn which minimises their effectiveness. Clinical research has shown that a new toothbrush can remove more plaque keeping your teeth clean and healthy. </p>
+            </div>
         </section>
     </main>
 </body>

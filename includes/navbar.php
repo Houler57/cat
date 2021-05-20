@@ -38,13 +38,5 @@
 		<li class="nav-item">
 			<a class="nav-link text-white" href="./sitemap.php">Sitemap</a>
 		</li>
-
-    <?php
-                 if(checkloggedin()){?>
-
-    <span class=" nav-link  text-white    text-warning">Hello, <?php  echo $_SESSION[USER_INFO]["firstname"]?></span>
-    </div>
-    <?php  }
-        ?>
     </ul>
 </nav>

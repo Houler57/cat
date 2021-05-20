@@ -40,7 +40,7 @@
 		</li>
 
 		<li class="nav-item">
-			<a class="nav-link text-white" href="./paypalcart.php">Cart</a>
+			<a class="nav-link text-white" href="./shoppingcart.php">Cart</a>
 		</li>
     <?php
                  if(checkloggedin()){?>

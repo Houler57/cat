@@ -2,7 +2,7 @@
 $rootDir = $_SERVER["HTTP_HOST"];
 $currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
 
-$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 
 include("$hostServerUrl/includes/session.php");
 
@@ -23,7 +23,7 @@ function cookieCallback($currentJsonSessionValues, $visitorCartCookies) {
 	$rootDir = $_SERVER["HTTP_HOST"];
 	$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
 
-	$hostServerUrl = "http://$rootDir/inte2047/TheKickbackers";
+	$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 	return setcookie($currentJsonSessionValues, $visitorCartCookies, time() + (86400 * 30), "$hostServerUrl/data/cookies"); // Sets cookie values in "data/cookies/" with a day's worth expiry.
 }
 

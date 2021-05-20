@@ -78,7 +78,27 @@
                     Pricing of bundled items has a degree in which larger bundles appear far much cheaper in the long
                     run over smaller bundles.
                     .</p>
-
+            </div>
+            <div style="width: 40%;" class="p-5">
+		<h1 class="mb-5">Why should you avoid plastic toothbrushes?</h1>
+                <p>The plastic that comprises your toothbrush has also been found to negatively impact individuals with acute chemical sensitivities. The plastic of the toothbrush would burn your mouth and cause your mouth to swell, due to the trace amounts of chemicals leaching from the toothbrush twice a day.</p>
+                <p>A recent study showed that most plastic products, including BPA (Bisphenol A) free products leach estrogenic chemicals when they are stressed.</p>
+		<p>Many products are now labelled as BPA free (majority of plastic toothbrushes are) this has lured us into a false sense of security.  BPA free products often still contain phthalates which come from the family of plasticizers that keep your toothbrush bendy and as a side effect, leach estrogenic chemicals.</p>
+            </div>
+		        <div class="carousel-item">
+                            <img src="image\P1.jpg" alt="New York" width="500" height="340">
+                        </div>
+            <div style="width: 40%;" class="p-5">
+		<h1 class="mb-5">What can you do with your old toothbrushes?</h1>
+                <p>One of the best ways to keep the toothbrushes out of landfills or even worse, floating around the oceans is to extend their life cycle. Rather than throwing them out straight after the three-month period of brushing your teeth, why not use them to clean your aquarium, hard to reach places, narrow places, clean appliances, etc.</p>
+            </div>
+		        <div class="carousel-item">
+                            <img src="image\p2.jpeg" alt="New York" width="480" height="320">
+                        </div>
+            <div style="width: 40%;" class="p-5">
+		<h1 class="mb-5">What do dentists say?</h1>
+                <p><b>"Not only is this a great toothbrush, it’s an environmentally conscious choice. I love the design and the vibrancy in the bristles – they bring a bit of fun to teeth hygiene, and because a beautiful new ShineSmile toothbrush is delivered to your door, it's a great way for you and your family to become more engaged in looking after your oral health."</b></p>
+		    <p>Dr John Smith, Dental Advisor to ShineSlime and member of the Australia Dental Association</p>
             </div>
         </section>
     </main>

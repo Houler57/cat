@@ -20,13 +20,22 @@
 			<a href="aboutus.php" class="text-white">About Us</a>
 			</li>
 			<li>
-			<a href="productlisting.php" class="text-white"></i> Product</a>
+			<a href="productlisting.php" class="text-white">Product</a>
 			</li>
 			<li>
-			<a href="#!" class="text-white">Contact Us</a>
+			<a href="contactus.php" class="text-white">Contact Us</a>
 			</li>
 			<li>
-			<a href="#!" class="text-white">Gallery</a>
+			<a href="login.php" class="text-white">Log in</a>
+			</li>
+			<li>
+			<a href="register.php" class="text-white">Register</a>
+			</li>
+			<li>
+			<a href="sitemap.php" class="text-white">Sitemap</a>
+			</li>
+			<li>
+			<a href="cardpayment.php" class="text-white">Cart</a>
 			</li>
 		</ul>
 		</div>

@@ -19,16 +19,43 @@
 
 		<ul class="list-unstyled mb-0">
 			<li>
+			<a href="index.php" class="text-white">Home</a>
+			</li>
+			<li>
+			<a href="register.php" class="text-white">Register</a>
+			</li>
+			<li>
 			<a href="aboutus.php" class="text-white">About Us</a>
 			</li>
 			<li>
 			<a href="productlisting.php" class="text-white">Product</a>
 			</li>
 			<li>
+			<a href="prod_desc_tier1.php" class="text-white">Product Tier 1</a>
+			</li>
+			<li>
+			<a href="prod_desc_tier2.php" class="text-white">Product tier 2</a>
+			</li>
+			<li>
+			<a href="prod_desc_tier3.php" class="text-white">Product tier 3</a>
+			</li>
+			<li>
 			<a href="contactus.php" class="text-white">Contact Us</a>
 			</li>
 			<li>
-			<a href="#!" class="text-white">Gallery</a>
+			<a href="sitemap.php" class="text-white">Sitemap</a>
+			</li>
+			<li>
+			<a href="shoppingcart.php" class="text-white">Cart</a>
+			</li>
+			<li>
+			<a href="login.php" class="text-white">Log In</a>
+			</li>
+			<li>
+			<a href="logout.php" class="text-white">Log Out</a>
+			</li>
+			<li>
+			<a href="cardpayment.php" class="text-white">Card Payment</a>
 			</li>
 		</ul>
 		</div>

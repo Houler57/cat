@@ -5,7 +5,10 @@
 <html lang="en">
 
 <head>
-	<title>Product: Tier 3 Bundle</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
 
 </head>
 
@@ -26,7 +29,7 @@ include("./includes/navbar.php");
                     <p class="lead">In this Tier 3, you will get 5 of our ShineSmile toothbrush, 2 medium size
                         ShineSmile toothpaste, and 1 ShineSmile mouthwash.</p>
                     <h5 class=" mb-4">Price: $50</h5>
-                    <a name="" id="" class="btn btn-primary mb-5" href="./cardpayment.php" role="button">Purchase</a>
+                    <a name="" id="" class="btn btn-primary mb-5" href="t3.php" role="button">Subscribe</a>
                     <br><br>
                     <section class="lead">
                         <p class="mt-5 mb-0"><strong>A fresh, eco-friendly bamboo-handles brushes with the ShineSmile

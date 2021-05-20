@@ -16,9 +16,6 @@ if(isset($_POST['login'])) {
 <head>
 
     <?php include("./includes/header.php");?>
-	<?php
-		include("./includes/functions.inc.php");
-	?>
     <title>Log In</title>
 </head>
 

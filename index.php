@@ -25,8 +25,7 @@
                         Get your complete dental care package delivered to your door
                     </h1>
 
-
-                    <a style="margin-top: 40%;" name="" id="" class="btn btn-danger" href="#"
+                    <a style="margin-top: 40%;" name="" id="" class="btn btn-danger px-3 py-2" href="productlisting.php"
                         role="button">Subscribe</a>
                 </div>
 
@@ -49,7 +48,7 @@
                             <img src="image\tier 2.jpg" alt="Chicago" width="1100" height="500">
                         </div>
                         <div class="carousel-item">
-                            <img src="image\tier 3.jpg" alt="New York" width="1100" height="500">
+                            <img src="image\tier 1.jpg" alt="New York" width="1100" height="500">
                         </div>
                     </div>
 
@@ -81,34 +80,6 @@
                     .</p>
 
             </div>
-	            <div style="width: 40%;" class="p-5">
-                <h1 class="mb-5">Why should you avoid plastic toothbrushes?</h1>
-                <p>The plastic that comprises your toothbrush has also been found to negatively impact individuals with acute chemical sensitivities. The plastic of the toothbrush would burn your mouth and cause your mouth to swell, due to the trace amounts of chemicals leaching from the toothbrush twice a day.</p>
-
-                <p> A recent study showed that most plastic products, including BPA (Bisphenol A) free products leach estrogenic chemicals when they are stressed.</p>
-			    
-	    <p>Many products are now labelled as BPA free (majority of plastic toothbrushes are) this has lured us into a false sense of security.  BPA free products often still contain phthalates which come from the family of plasticizers that keep your toothbrush bendy and as a side effect, leach estrogenic chemicals.</p>
-
-            </div>
-		<div class="text-center">
-                  <img src="image\P1.jpg" class="rounded" alt="No plastic toothbrush" width="500" height="340">
-             </div>
-	<div style="width: 40%;" class="p-5">
-                <h1 class="mb-5">How often should you change your toothbrush?</h1>
-                <p>Dental professionals recommend changing your toothbrush about every three months, or as soon as the bristles are frayed. This is because toothbrush bristles get frayed and worn which minimises their effectiveness. Clinical research has shown that a new toothbrush can remove more plaque keeping your teeth clean and healthy. </p>
-            </div>
-		<div class="text-center">
-                  <img src="image\p2.jpeg" class="rounded" alt="Toothbrush" width="480" height="320">
-             </div>
-	<div style="width: 40%;" class="p-5">
-                <h1 class="mb-5">What do dentists say?</h1>
-                <p><b>"Not only is this a great toothbrush, it’s an environmentally conscious choice. I love the design and the vibrancy in the bristles – they bring a bit of fun to teeth hygiene, and because a beautiful new ShineSmile toothbrush is delivered to your door, it's a great way for you and your family to become more engaged in looking after your oral health."</b></p>
-		<p>Dr John Smith,</p>
-		<p>Dental Advisor to ShineSlime and member of the Australia Dental Association</p>
-            </div>
-	<div class="text-center">
-                  <img src="image\Doctor 2.jfif" class="rounded" alt="Doctor 2" width="1100" height="500">
-             </div>
         </section>
     </main>
 </body>

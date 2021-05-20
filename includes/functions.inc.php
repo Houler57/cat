@@ -28,8 +28,18 @@ function displayValue($form, $name) {
 }
 //---------------------------------------------------------------------------------------------------------
 
+$items = readJsonFile("data/items.json");
+$_SESSION["items"] = $items;
 
- 
+function printItem($tiername, $field){
+echo $_SESSION["items"][$tiername][$field] ;
+}
+
+
+function setitem($item){
+    $_SESSION["currentitem"] = $item;
+}
+
 # this array holds the error messages for each input 
 $errors = array();
 

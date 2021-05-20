@@ -39,9 +39,6 @@
 			<a class="nav-link text-white" href="./sitemap.php">Sitemap</a>
 		</li>
 
-		<li class="nav-item">
-			<a class="nav-link text-white" href="./shoppingcart.php">Cart</a>
-		</li>
     <?php
                  if(checkloggedin()){?>
 

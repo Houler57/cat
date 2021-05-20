@@ -1,3 +1,6 @@
+<?php
+		include("./includes/functions.inc.php");
+	?>
 <div class="bg-dark text-center text-lg-start">
 	<!-- Grid container -->
 	<div class="container p-4">
@@ -27,9 +30,14 @@
 			<li>
 			<a href="contactus.php" class="text-white">Contact Us</a>
 			</li>
+
 			<li>
 			<a href="#!" class="text-white">Gallery</a>
 			</li>
+			<li>
+			<a href="login.php">Login</a>
+			</li>
+
 		</ul>
 		</div>
 		<!--Grid column-->

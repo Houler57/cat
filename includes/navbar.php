@@ -39,8 +39,8 @@
 			<a class="nav-link" href="./sitemap.php">Sitemap</a>
 		</li>
 
-		<li class="nav-item text-right">
-			<a href="./shoppingcart.php">Cart</a>
+		<li class="nav-item">
+			<a class="nav-link" href="./shoppingcart.php">Cart</a>
 		</li>
     <?php
                  if(checkloggedin()){?>

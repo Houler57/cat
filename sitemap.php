@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<?php
+	include("./includes/header.php");
+?>
+<?php
+	include("./includes/functions.inc.php");
+?>
+</head>
+
+<body>
+<?php
+	include("./includes/navbar.php");
+	?>
 <div class="bg-dark text-center text-lg-start">
 	<!-- Grid container -->
 	<div class="container p-4">
@@ -59,33 +74,7 @@
 			</li>
 		</ul>
 		</div>
-		<!--Grid column-->
-
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-		<h5 class="text-white">We Accept</h5>
-
-		<ul class="list-unstyled">
-			<li>
-
-			</li>
-			<li>
-
-			</li>
-			<li>
-
-			</li>
-			<li>
-
-			</li>
-		</ul>
-		</div>
-		<!--Grid column-->
-	</div>
-	<!--Grid row-->
-	</div>
-	<!-- Grid container -->
-
+</body>
 	<!-- Copyright -->
 	<div class="text-white" style="background-color: rgba(0, 0, 0, 0.2);">
 	© 2020 Copyright:
@@ -93,3 +82,5 @@
 	</div>
 </div>
 <!-- Copyright -->
+
+</html>

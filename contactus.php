@@ -21,9 +21,9 @@ include("./includes/navbar.php");
             <div class="text-center contactinfo">
                 <h1>Let's connect</h1>
                 Address <br>
-                <div> 101 Ay steer VIC 3000</div><br>
+                <div> 101 Aye Street VIC 3000</div><br>
                 Email <br>
-                <div> admin@abcgym.com.au</div><br>
+                <div> customer-support@shinesmilebusiness.com.au</div><br>
                 Phone <br>
                 <div> 0123 456 789</div><br>
             </div>

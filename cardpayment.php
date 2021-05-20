@@ -6,18 +6,17 @@
 		$currentFilepath = rtrim(dirname($_SERVER["PHP_SELF"]));
 		$hostServerUrl = "$rootDir/inte2047/TheKickbackers";
 	?>
+<?php
+	include("./includes/header.php");
+?>
+<?php
+	include("./includes/functions.inc.php");
+?>
 
 	<?php	
-		session_start();
 		session_id();
 	?>
 	
-	<?php
-		include("./includes/header.php");
-	?>
-	<?php
-		include("./includes/functions.inc.php");
-	?>
 </head>
 <body>
 	<?php

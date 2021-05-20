@@ -90,10 +90,16 @@
 	    <p>Many products are now labelled as BPA free (majority of plastic toothbrushes are) this has lured us into a false sense of security.  BPA free products often still contain phthalates which come from the family of plasticizers that keep your toothbrush bendy and as a side effect, leach estrogenic chemicals.</p>
 
             </div>
+		<div class="text-center">
+                  <img src="image\P1.jpg" class="rounded" alt="No plastic toothbrush" width="500" height="340">
+             </div>
 	<div style="width: 40%;" class="p-5">
                 <h1 class="mb-5">How often should you change your toothbrush?</h1>
                 <p>Dental professionals recommend changing your toothbrush about every three months, or as soon as the bristles are frayed. This is because toothbrush bristles get frayed and worn which minimises their effectiveness. Clinical research has shown that a new toothbrush can remove more plaque keeping your teeth clean and healthy. </p>
             </div>
+		<div class="text-center">
+                  <img src="image\p2.jpeg" class="rounded" alt="Toothbrush" width="480" height="320">
+             </div>
 	<div style="width: 40%;" class="p-5">
                 <h1 class="mb-5">What do dentists say?</h1>
                 <p><b>"Not only is this a great toothbrush, it’s an environmentally conscious choice. I love the design and the vibrancy in the bristles – they bring a bit of fun to teeth hygiene, and because a beautiful new ShineSmile toothbrush is delivered to your door, it's a great way for you and your family to become more engaged in looking after your oral health."</b></p>

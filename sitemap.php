@@ -60,7 +60,7 @@
 									<li><a href="./prod_desc_tier1.php">Product Description: Tier 1</a></li>
 									<li><a href="./prod_desc_tier2.php">Product Description: Tier 2</a></li>
 									<li><a href="./prod_desc_tier3.php">Product Description: Tier 3</a></li>
-									<li><a href="./purchase.php">Purchase Page Us</a></li>
+									<li><a href="./purchase.php">Purchase Page</a></li>
 								</ul>
 							</div>
 						</div>

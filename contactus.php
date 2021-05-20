@@ -7,7 +7,7 @@
 <?php
 include("./includes/header.php");
 ?>
-<title>Home Page</title>
+<title>Contact Us</title>
 </head>
 
 <body>

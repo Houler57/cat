@@ -8,7 +8,7 @@
     <?php
 include("./includes/header.php");
 ?>
-    <title>Home Page</title>
+    <title>Pay with PayPal</title>
 </head>
 
 <body>

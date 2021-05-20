@@ -1,6 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <?php
 		include("./includes/functions.inc.php");
 	?>
+	<?php
+		include("./includes/header.php");
+	?>
+
+	<title>Sitemap</title>
+</head>
+<body>
+	<?php include("./includes/navbar.php");  ?>
+</body>
+</html>
 <div class="bg-dark text-center text-lg-start">
 	<!-- Grid container -->
 	<div class="container p-4">
@@ -21,51 +34,26 @@
 		<h5 class="text-white">Get Around</h5>
 
 		<ul class="list-unstyled mb-0">
-			<li>
-			<a href="aboutus.php" class="text-white">About Us</a>
-			</li>
-			<li>
-			<a href="productlisting.php" class="text-white">Product</a>
-			</li>
-			<li>
-			<a href="contactus.php" class="text-white">Contact Us</a>
-			</li>
 
-			<li>
-			<a href="#!" class="text-white">Gallery</a>
-			</li>
-			<li>
-			<a href="login.php">Login</a>
-			</li>
+		<li class="nav-item active">
+            <a class=" nav-link  text-white  " href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class=" nav-link  text-white  " href="./productlisting.php">Products</a>
+        </li>
+        <li class="nav-item">
+            <a class=" nav-link  text-white  " href="./aboutus.php">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class=" nav-link  text-white  " href="./contactus.php">Contact Us</a>
+        </li>
+
+		<li class="nav-item">
+			<a class="nav-link text-white" href="./shoppingcart.php">Cart</a>
+		</li>
 
 		</ul>
 		</div>
-		<!--Grid column-->
-
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-		<h5 class="text-white">We Accept</h5>
-
-		<ul class="list-unstyled">
-			<li>
-
-			</li>
-			<li>
-
-			</li>
-			<li>
-
-			</li>
-			<li>
-
-			</li>
-		</ul>
-		</div>
-		<!--Grid column-->
-	</div>
-	<!--Grid row-->
-	</div>
-	<!-- Grid container -->
 
 	<!-- Copyright -->
 	<div class="text-white" style="background-color: rgba(0, 0, 0, 0.2);">

@@ -8,6 +8,8 @@
     <?php
 include("./includes/header.php");
 ?>
+
+<title>Product Listing</title>
 </head>
 
 <body>

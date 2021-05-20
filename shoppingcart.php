@@ -8,6 +8,9 @@
 		include("./includes/functions.inc.php");
 	?>
 
+	<title>Shopping Cart</title>
+</head>
+
 <body>
 <?php
 	include("./includes/navbar.php");

@@ -17,6 +17,7 @@
 		session_id();
 	?>
 	
+	<title>Card Payment</title>
 </head>
 <body>
 	<?php

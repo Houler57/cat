@@ -12,9 +12,6 @@
 <?php
 	include("./includes/header.php");
 ?>
-<?php
-	include("./includes/functions.inc.php");
-?>
 
 	<?php	
 		session_id();

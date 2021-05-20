@@ -25,7 +25,7 @@ include("./includes/navbar.php");
                     <img src="./image/tier 1.jpg" alt="" class="tier2" width="500rem">
                     <p class="lead">In this Tier 1, you will get 1 of our ShineSmile toothbrush with an additional 1 ShineSmile toothpaste.</p>
                     <h5 class=" mb-4">Price: $20</h5>
-                    <a name="" id="" class="btn btn-primary mb-5" href="#" role="button">Add to Cart</a>
+                    <a name="" id="" class="btn btn-primary mb-5" href="./cardpayment.php" role="button">Purchase</a>
                     <br><br>
 				<section class="lead">
                         <p class="mt-5 mb-0"><strong>A fresh, eco-friendly bamboo-handles brushes with the ShineSmile

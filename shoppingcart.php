@@ -2,42 +2,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- font awesome css -->
-<script src="https://kit.fontawesome.com/e4b7cacf78.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/main.css"></head>
+<?php
+		include("./includes/header.php");
+	?>
+<?php
+		include("./includes/functions.inc.php");
+	?>
+
 <body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-	<img src="./image/Shinesmile logo.png" alt="Shinesmile Logo">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./productlisting.php">Products</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./aboutus.php">About Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./contactus.php">Contact Us</a>
-        </li>
-
-		<li class="nav-item">
-			<a class="nav-link" href="./sitemap.php">Sitemap</a>
-		</li>
-
-		<li class="nav-item text-right">
-			<a href="./shoppingcart.php">Cart</a>
-		</li>
-    </ul>
-</nav>
+<?php
+	include("./includes/navbar.php");
+	?>
+</body>
 
 	<div class="container-sm">
 

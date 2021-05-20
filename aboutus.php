@@ -19,13 +19,13 @@ include("./includes/header.php");
 <body>
     <?php  include("./includes/navbar.php");?>
     <main>
-        <div class="shine">
+        <div class="shine mb-5">
             <h1>About Shine Smile</h1>
             <h5>We Provide Our Customers With The Best Dental Hygiene Products </h5>
         </div>
         <table>
             <tr>
-                <th><img src="image/Toothbrush with logo with ingraving.png"></th>
+                <th><img src="image/tier 3.jpg"></th>
                 <th><img src="image/Toothbrush with logo.png"></th>
             </tr>
             <tr>

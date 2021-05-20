@@ -76,9 +76,11 @@
 		</div>
 </body>
 	<!-- Copyright -->
-	<div class="text-white" style="background-color: rgba(0, 0, 0, 0.2);">
-	© 2020 Copyright:
-	<a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+	<div class="container-sm text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+		<div class="row">
+			© 2020 Copyright:
+			<a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+		</div>
 	</div>
 </div>
 <!-- Copyright -->

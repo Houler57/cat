@@ -16,7 +16,7 @@
 
 	<div class="container-sm">
 
-		<script src="../js/exts/simplecart-js-2.2.3/simpleCart.js"></script>
+		<script src="./js/exts/simplecart-js-2.2.3/simpleCart.js"></script>
 		<script>
 			simpleCart({
 				checkout: {

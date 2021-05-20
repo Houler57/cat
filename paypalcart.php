@@ -14,7 +14,7 @@ include("./includes/header.php");
 <body>
 <?php include("./includes/navbar.php");  ?>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js"></script>
+<script src="./js/exts/minicart-3.0.6/minicart.min.js"></script>
 <script> paypal.minicart.render(); </script>
 
 <?php include("./includes/footer.php");  ?>

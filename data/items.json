@@ -1,0 +1,19 @@
+{
+"tier1" : {
+"name" : "Single",
+"price" : "20",
+"desc": "One ShineSmile toothbrush. One ShineSmile toothpaste 160gr"
+
+},
+"tier2" : {
+    "name" : "Couple",
+    "price" : "35",
+    "desc": "Two ShineSmile toothbrush. One ShineSmile toothpaste 200gr. One ShineSmile Mouthwash 500ml."
+}, 
+
+"tier3":{
+"name" : "Family",
+"price" : "50",
+"desc": "Five ShineSmile toothbrush. Two ShineSmile toothpaste 200gr. One ShineSmile Mouthwash 1000ml."
+}
+}

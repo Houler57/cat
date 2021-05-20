@@ -46,7 +46,7 @@
                             <img src="image\tier 2.jpg" alt="Chicago" width="1100" height="500">
                         </div>
                         <div class="carousel-item">
-                            <img src="image\tier 1.jpg" alt="New York" width="1100" height="500">
+                            <img src="image\tier 3.jpg" alt="New York" width="1100" height="500">
                         </div>
                     </div>
 

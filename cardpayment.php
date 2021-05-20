@@ -64,7 +64,7 @@
 </footer>
 </html>
 
-<script src="./js/exts/card-v.2.5.2/dist/jquery.card.js\"></script>
+<script src="./js/exts/card-v.2.5.2/dist/jquery.card.js"></script>
 <script>
 $('form').card({container: '.card-wrapper',}) // "Card - check out the demo". [online] Available at: https://github.com/jessepollak/card
 </script>
